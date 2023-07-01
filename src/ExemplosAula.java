@@ -6,9 +6,19 @@ public class ExemplosAula {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int x;
-		x = sc.nextInt();
-		System.out.println("Você digitou: " + x); //Atalho (sysout + ctrl + space)
+		String x;
+		int y;
+		double z;
+		
+		x = sc.next();
+		y = sc.nextInt();
+		z = sc.nextDouble();
+		
+		System.out.println("Dados digitados: "); //Atalho (sysout + ctrl + space)
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
+		
 		
 		sc.close();
 		
