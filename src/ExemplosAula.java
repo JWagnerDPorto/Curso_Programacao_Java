@@ -2,16 +2,14 @@
 public class ExemplosAula {
 
 	public static void main (String[] args) {
+		//Casting
+		double a;
+		int b;
 		
-		int a, b;
-		double resultado;
+		a = 5.0;
+		b = (int) a;
 		
-		a = 5;
-		b = 2;
-		
-		resultado = (double) a / b;
-		
-		System.out.println(resultado);
+		System.out.println(b);
 		
 		
 		
