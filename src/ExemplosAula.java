@@ -1,18 +1,16 @@
+import java.util.Scanner;
 
 public class ExemplosAula {
 
 	public static void main (String[] args) {
-		//Casting
-		double a;
-		int b;
 		
-		a = 5.0;
-		b = (int) a;
+		Scanner sc = new Scanner(System.in);
 		
-		System.out.println(b);
+		String x;
+		x = sc.next();
+		System.out.println("Você digitou: " + x); //Atalho (sysout + ctrl + space)
 		
-		
-		
+		sc.close();
 		
 	}
 
