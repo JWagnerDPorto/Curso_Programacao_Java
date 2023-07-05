@@ -1,7 +1,7 @@
 
 import java.util.Locale;
 
-public class Exercicio1 {
+public class Exercicios {
 
 	public static void main(String[] args) {
 
