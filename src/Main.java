@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		String nome = "Maria";
-		int idade = 31;
+		int idade = 32;
 		double renda = 4000.0;
 		
 		double x = 10.35784;
